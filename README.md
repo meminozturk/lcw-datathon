@@ -2,6 +2,11 @@
 
 We're proud of successfully winning the first place in LC Waikiki Datathon 2019 in Istanbul between March 8-10 2019. LC Waikiki is the largest Turkish retailer founded in France in 1988. Today, LC Waikiki trades in 1018 stores in 47 countries.
 
+You can see more details about the datathon from the official blog post by LC Waikiki;
+https://medium.com/lcw-analytics/bir-datathonun-anatomisi-lc-waikiki-datathon-2019-a55606117bcb
+
+![Banner](banner.jpg)
+
 The main case of the datathon was simply sales forecasting by analyzing the past period data, finding the factors affecting the sales and making a sales forecast on the basis of category (class) in the day-store-product hierarchy for future periods.
 
 We developed a predictive model on Python scoring RMSE of 4.26, which brought us the winning position. It was mainly a Lightgbm model with some special tricks;
@@ -16,7 +21,7 @@ We developed a predictive model on Python scoring RMSE of 4.26, which brought us
 
 * We used categorical values such as StoreID and ProductID by converting them to numerical values with the help of Target Encoding, Dummification and Label Encoding.
 
-I can't share the code and the data because of confidentiality issues since the data given to us was real sales values of LC Waikiki between 2015-2018. You can see more details about the datathon over the project url which refers the official blog post by LC Waikiki.
+![Winners](winners.jpg)
 
 Thanks,
 
